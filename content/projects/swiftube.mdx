@@ -1,0 +1,102 @@
+---
+title: Swiftube
+description: An innovative application that transforms user prompts into animated videos, complete with intro & outro, images, voice-over and table. This is very useful when you have some talking points and images from a presentation and want to quickly convert it into an engaging video for YouTube.
+date: "2023-06-24"
+url: https://swiftube.pranava.dev
+published: true
+repository: "thecmdrunner/swiftube-frontend"
+---
+
+[Read original post](https://dev.to/thecmdrunner/swiftube-creating-videos-using-react-ai-3kj5)
+
+[![](https://user-images.githubusercontent.com/38887390/241390558-c043b912-0054-4289-970d-b95d5d749fd6.png)](https://swiftube.pranava.dev)
+
+## What I built 🚀
+
+I've built **Swiftube**, an innovative application that transforms user prompts into animated videos, complete with intro & outro, images, voice-over and table.
+
+**My Tech Stack:**
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/582ce4o6m4twmn5fgnj9.png)
+
+### Category Submission: 🃏
+
+Wacky Wildcards
+
+### App Link 🌐
+
+https://swiftube.vercel.app
+
+### Screenshots 🖼️
+
+- Video Playback ▶️
+  ![Video Playback](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g3fm8nestsjriilx6403.png)
+
+- Homepage 🏠
+  ![Homepage](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/plj00l0d8y8hy9qnw5pw.png)
+
+- Creating a new video 🪄
+  ![Creating a new video](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/de0zcrt4s0sk05ku9y78.png)
+
+- Explore videos made by others!
+  ![Explore videos made by others](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bqxdyi2jtprxfnhu14lg.png)
+
+### Description
+
+Swiftube generates videos based on the instructions and raw content provided by the user, by leveraging the power of:
+
+- [Remotion](https://remotion.dev/) - Programmatic videos using React
+- [Google Text-to-Speech](https://cloud.google.com/text-to-speech/)
+- [OpenAI](https://openai.com/) (2023 special!)
+
+This is very useful when you have some talking points and images from a presentation and want to quickly convert it into an engaging video for YouTube, Instagram, or what have you!
+
+Remotion's programmatic approach unlocks many features, including but not limited to:
+
+- Changing the video host entirely (**_this is huge!_**)
+- Changing the Channel Logo in the outro
+
+Watch this [example video](https://swiftube.vercel.app/video/4e844125ab23e56b5a81282cafa96e2250c8ec0f43383f0ea5b2e5c4c711ea6f) to see it in action! (try changing the **_Video Settings_**)
+
+Given some more time, I'd love to implement:
+
+- Rendering mp4 videos in the cloud using GitHub Actions and [Remotion Lambda](https://www.remotion.dev/docs/lambda)!
+- Prettier looking video w/ animations (right now it's just the talking points and images)
+- and many more features...
+
+### Link to Source Code 🧑‍💻
+
+- Next.js Frontend - https://github.com/thecmdrunner/swiftube-frontend
+
+- Backend - https://github.com/thecmdrunner/swiftube-backend
+
+### Permissive License 🌟
+
+MIT License
+
+## Background 🤔
+
+I loved the idea of creating videos with dynamic data using [Remotion](https://remotion.dev/) and started to dabble with it. I had a vague idea that it can be used to make simple videos that convey some text.
+
+Then, after experimenting more with it, I got a basic demo of Remotion with Text-to-speech working.
+
+I realized that the pairing of OpenAI and Remotion can be a huge time saver for many because it eliminates the need for:
+
+- Fancy & expensive equipment for recording your voice.
+- Video/Audio editing skills
+
+Just bring your own content!
+
+### How I built it 🤓
+
+After learning about the Text-to-speech APIs, Cloud storage, picking the right databases, facing lots of challenges, and dealing with lots and lots of mathematics on the Remotion size, it finally worked as intended.
+
+Admittedly, it's still in the early stages, and is only good for < 10 mins videos. But I invite members of the Open Source community to criticize, iterate and improve on it, if they find it useful :)
+
+Happy to be a part of this Hackathon!
+Thanks for reading this far, appreciate it :)
+
+### Additional Resources/Info 📑
+
+- [Remotion](https://remotion.dev/)
+- [Create-t3-app](https://create.t3.gg/)
