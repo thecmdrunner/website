@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
-const emailAddress = "thecmdrunner@proton.me";
+const emailAddress = "hey@pranava.dev";
 
 const socials = [
   {
@@ -17,7 +17,7 @@ const socials = [
     icon: <Mail size={20} />,
     href: `mailto:${emailAddress}`,
     label: `Email`,
-    handle: `thecmdrunner@proton`,
+    handle: emailAddress,
   },
   {
     icon: <Github size={20} />,

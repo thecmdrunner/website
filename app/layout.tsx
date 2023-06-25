@@ -6,16 +6,16 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "pranava.dev",
-    template: "%s | pranava.dev",
+    default: "Pranav",
+    template: "%s | Pranav",
   },
   description: "Software engineer at upstash.com and founder of planetfall.io",
   openGraph: {
-    title: "pranava.dev",
+    title: "Pranav",
     description:
       "Software engineer at upstash.com and founder of planetfall.io",
     url: "https://pranava.dev",
-    siteName: "pranava.dev",
+    siteName: "Pranav",
     images: [
       {
         url: "https://pranava.dev/og.png",

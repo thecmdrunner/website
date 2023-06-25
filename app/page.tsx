@@ -37,18 +37,27 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm leading-6 text-zinc-500 ">
+        <h2 className="text-sm px-4 leading-6 text-zinc-300 ">
           Hi, I'm a Full Stack Developer, building apps with Next.js and
           Typescript.
-          <br />I also like to create video programmatically using
+          <br />I also like to play with{" "}
           <Link
+            referrerPolicy="no-referrer"
             target="_blank"
             href="https://remotion.dev"
-            className="underline duration-500 hover:text-zinc-300 ml-[0.5ch]"
+            className="underline duration-500 hover:text-blue-300"
           >
             Remotion
           </Link>
-          .
+          , Linux, Docker and
+          <Link
+            referrerPolicy="no-referrer"
+            target="_blank"
+            href="https://github.com/thecmdrunner/vfio-gpu-configs/"
+            className="underline duration-500 hover:text-blue-300 ml-[0.5ch]"
+          >
+            Virtual Machines!
+          </Link>
         </h2>
       </div>
     </div>
