@@ -9,11 +9,10 @@ export const metadata: Metadata = {
     default: "Pranav",
     template: "%s | Pranav",
   },
-  description: "Software engineer at upstash.com and founder of planetfall.io",
+  description: "Full Stack Software Developer",
   openGraph: {
     title: "Pranav",
-    description:
-      "Software engineer at upstash.com and founder of planetfall.io",
+    description: "Full Stack Software Developer",
     url: "https://pranava.dev",
     siteName: "Pranav",
     images: [
