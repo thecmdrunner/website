@@ -9,11 +9,11 @@ const nextConfig = {
 	},
 	async redirects() {
 		return [
-			{
-				source: '/',
-				destination: 'https://bio.link/thecmdrunner',
-				permanent: false,
-			},
+			// {
+			// 	source: '/',
+			// 	destination: 'https://bio.link/thecmdrunner',
+			// 	permanent: false,
+			// },
 		]
 	},
 };
