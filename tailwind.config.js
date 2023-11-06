@@ -31,7 +31,11 @@ module.exports = {
 			fontFamily: {
 				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
 				display: ["var(--font-calsans)"],
+				sans: ["DM Sans", "sans-serif"],
+				serif: ["DM Sans", "serif"],
+				mono: ["Space Mono", "monospace"],
 			},
+
 			backgroundImage: {
 				"gradient-radial":
 					"radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
@@ -101,6 +105,11 @@ module.exports = {
 						opacity: "100%",
 					},
 				},
+			},
+			colors: {
+				"github-bg": "#0D1116",
+				"github-fg": "#161B21",
+				"github-fg-border": "#30363d",
 			},
 		},
 	},
